@@ -1,0 +1,116 @@
+.details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas: "image details";
+  padding: 20px;
+  margin-top: 100px;
+  background-color: white;
+  border: 1px solid #ff6347;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#book-img {
+  /* background-color: antiquewhite; */
+  grid-area: image;
+  padding: 40px;
+}
+#book-details {
+  /* background-color: blue; */
+  grid-area: details;
+  padding: 40px;
+}
+
+#Thebook {
+  height: 450px;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 1);
+}
+
+/* .words {
+  background-color: red;
+} */
+
+h1 {
+  font-size: 23px;
+  margin: 0;
+}
+.author {
+  display: block;
+  color: darkgreen;
+  margin: 5px;
+}
+
+#cover-type {
+  color: black;
+  font-size: 15px;
+}
+
+#price {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 20%;
+  /* background-color: #ff6347; */
+  width: 500px;
+}
+
+form input {
+  margin: 10px 10px 0px 10px;
+  width: 400px;
+  height: 30px;
+  border: 1px solid black;
+}
+textarea {
+  margin: 10px;
+  width: 400px;
+  height: 100px;
+  border: 1px solid black;
+}
+#submitbtn {
+  margin-top: 20px;
+  background-color: #273691;
+  color: #fff;
+  font-weight: 600px;
+  font-size: 15px;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+  height: 50px;
+}
+
+/* overview style */
+#overview {
+  padding: 20px;
+  /* background-color: aqua; */
+  border: 1px solid red;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  column-count: 2;
+  column-gap: 24px;
+  line-height: 1.85em;
+  background-color: #fff;
+}
+
+#over {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+}
+span {
+  color: red;
+  margin-left: 5px;
+  font-size: 12px;
+}

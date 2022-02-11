@@ -1,0 +1,118 @@
+#contact {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "contact feedback";
+}
+
+#contact-info {
+  background-color: aqua;
+  grid-area: contact;
+  background-color: #fff;
+  max-width: 850px;
+  padding: 50px;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* float: left; */
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.05);
+  word-wrap: break-word;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#feedback {
+  background-color: brown;
+  grid-area: feedback;
+  background-color: #fff;
+  margin: 40px;
+  /* float: left; */
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.05);
+  word-wrap: break-word;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 600px;
+}
+
+p {
+  line-height: 1.85em;
+  font-size: 18px;
+}
+
+h1 {
+  color: #066;
+  font-size: 20px;
+}
+
+.social-media {
+  color: #066;
+}
+
+#youtube {
+  color: red;
+}
+#facebook {
+  color: blue;
+}
+#twitter {
+  color: skyblue;
+}
+#insta {
+  color: hotpink;
+}
+
+input,
+textarea {
+  margin: 6px 5px 0px 5px;
+}
+
+input,
+textarea {
+  border: black 1px solid;
+  background-color: beige;
+  width: 400px;
+}
+#contact-image {
+  max-width: 100%;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+  min-width: 400px;
+}
+input {
+  height: 30px;
+}
+textarea {
+  height: 170px;
+}
+#feedback h1 {
+  color: orangered;
+  font-size: 20px;
+  padding: 0 30px;
+  text-align: center;
+}
+
+#feedback-btn {
+  margin-top: 20px;
+  background-color: #ff6347;
+  color: #fff;
+  font-weight: 400px;
+  font-size: 15px;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-rows: auto;
+}
+
+#feedback span {
+  color: red;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+label {
+  margin: 5px;
+}

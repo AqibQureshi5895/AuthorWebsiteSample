@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Css/index.css" />
+    <link rel="stylesheet" href="../Css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <title>Ryan Holiday</title>
+  </head>
+  <body>
+    <nav>
+      <div id="logo">Ryan Holiday</div>
+      <ul>
+        <li class="navlink"><a href="../Html/index.html">Home</a></li>
+        <li class="navlink"><a href="../Html/store.html">Books</a></li>
+        <li class="navlink"><a href="../Html/blogs.html">Blogs</a></li>
+        <li class="navlink"><a href="../Html/about.html">About Me</a></li>
+        <li class="navlink"><a href="">Contact</a></li>
+        <li class="navlink">
+          <a href="https://www.instagram.com/ryanholiday">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li class="navlink">
+          <a href="https://twitter.com/ryanholidayy">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="navlink">
+          <a href="https://www.facebook.com/ryanholiday">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <article id="contact">
+      <section id="contact-info">
+        <img id="contact-image" src="../images/profile3.jpg" />
+        <h1 id="contact-title">Contact</h1>
+
+        <p>
+          I’ve been publishing work online for more than a decade. There is a
+          good chance I have written about what you want to email me about.
+          Please do a little research before you email me. I’ll even help you
+          get started:
+        </p>
+
+        <section class="blog">
+          <h1 id="heading">Social Media</h1>
+
+          <p id="insta">
+            <i class="fab fa-instagram">
+              <a href="https://www.instagram.com/ryanholiday">
+                <span class="social-media"> Instagram</span>
+              </a>
+            </i>
+          </p>
+
+          <p id="twitter">
+            <i class="fab fa-twitter">
+              <a href="https://twitter.com/ryanholidayy">
+                <span class="social-media"> Twitter</span>
+              </a>
+            </i>
+          </p>
+
+          <p id="facebook">
+            <i class="fab fa-facebook">
+              <a href="https://www.facebook.com/ryanholiday">
+                <span class="social-media"> Facebook</span>
+              </a>
+            </i>
+          </p>
+
+          <p id="youtube">
+            <i class="fab fa-youtube">
+              <a href="https://www.youtube.com/c/DailyStoic/">
+                <span class="social-media"> Youtube</span>
+              </a>
+            </i>
+          </p>
+
+          <p>Email:<span class="social-media"> ryanholiday@gmail.com</span></p>
+          <p>
+            I read every email, but it is simply not possible to respond to
+            every email.
+          </p>
+        </section>
+      </section>
+      <!-- ----------Feedback section---------------- -->
+      <section id="feedback">
+        <h1>Feedback</h1>
+        <form onsubmit="return formValidate()">
+          <label for="name">Full Name:</label><input id="name" type="text" />
+          <span id="namespan"></span><br />
+
+          <label for="email">Email:</label><input id="email" type="email" />
+          <span id="emailspan"></span><br />
+
+          <label for="content">Your Reviews</label>
+          <textarea id="content"></textarea>
+          <span id="contentspan"></span><br />
+
+          <input id="feedback-btn" type="submit" value="Send Feedback" />
+        </form>
+      </section>
+    </article>
+    <!-- ----------------scripts for the page----------- -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../Jquery/library/feedbackValidation.js"></script>
+  </body>
+</html>

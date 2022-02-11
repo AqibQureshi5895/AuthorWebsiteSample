@@ -1,0 +1,31 @@
+#about {
+  background-color: #fff;
+  max-width: 850px;
+  padding: 50px;
+  margin-left: 200px;
+  margin-top: 40px;
+  float: left;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.05);
+  word-wrap: break-word;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+p {
+  line-height: 1.85em;
+  font-size: 18px;
+}
+
+h1,
+h2,
+i.qoutes {
+  color: #066;
+}
+
+h2 {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
